@@ -1,0 +1,285 @@
+.Intro{
+    text-align: center;
+}
+.product{
+    height: 800px;
+    width: 800px;
+    border-radius: 40px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.Description{
+    display: flex;
+}
+.More{
+    margin-left: 50px;
+    font-size: x-large;
+    margin-top: 50px;
+}
+.screenreader{
+    margin-left: 50px;
+}
+.braille{
+    height: 260px;
+    width: 260px;
+}
+.textSpeech{
+    height: 260px;
+    width: 350px;
+
+}
+.Courses{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.briefing{
+    font-size: x-large;
+    text-align: center;
+}
+.BriefDescriptions{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+@media screen and (min-width:280px) and (max-width:480px){
+    .Intro{
+        text-align: center;
+    }
+    .product{
+        height: 300px;
+        width: 300px;
+        border-radius: 40px;
+    }
+    .Description{
+        display: flex;
+        flex-direction: column;
+    }
+    .More{
+        font-size: medium;
+        margin-top: 50px;
+    }
+    .screenreader{
+
+    }
+    .braille{
+        height: 150px;
+        width: 150px;
+    }
+    .textSpeech{
+        height: 150px;
+        width: 200px;
+    
+    }
+    .Courses{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .briefing{
+        font-size: medium;
+        text-align: center;
+    }
+    .BriefDescriptions{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }  
+    
+}
+
+@media screen and (min-width:481px) and (max-width:680px){
+    .Intro{
+        text-align: center;
+    }
+    .product{
+        height: 300px;
+        width: 450px;
+        border-radius: 40px;
+        margin-top: 50px;
+    }
+    .Description{
+        display: flex;
+        flex-direction: column;
+    }
+    .More{
+        font-size: large;
+        margin-top: 50px;
+    }
+    .screenreader{
+        
+    }
+    .braille{
+        height: 150px;
+        width: 150px;
+    }
+    .textSpeech{
+        height: 150px;
+        width: 200px;
+    
+    }
+    .Courses{
+        display: flex;
+        flex-direction: column;
+   
+    }
+    .briefing{
+        font-size: large;
+        text-align: center;
+    }
+    .BriefDescriptions{
+        display: flex;
+        flex-direction: column;
+       
+    }  
+    
+}
+
+
+@media screen and (min-width:681px) and (max-width:880px){
+    .Intro{
+        text-align: center;
+    }
+    .product{
+        height: 600px;
+        width: 700px;
+        border-radius: 40px;
+        margin-top: 50px;
+    }
+    .Description{
+        display: flex;
+        flex-direction: column;
+    }
+    .More{
+        font-size: large;
+        margin-top: 50px;
+    }
+    .screenreader{
+        
+    }
+    .braille{
+        height: 150px;
+        width: 150px;
+    }
+    .textSpeech{
+        height: 150px;
+        width: 200px;
+    
+    }
+    .Courses{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .briefing{
+        font-size: large;
+        text-align: center;
+    }
+    .BriefDescriptions{
+        display: flex;
+        flex-direction: column;
+    
+    }  
+    
+}
+
+@media screen and (min-width:881px) and (max-width:1020px){
+    .Intro{
+        text-align: center;
+    }
+    .product{
+        height: 600px;
+        width: 800px;
+        border-radius: 40px;
+        margin-top: 50px;
+    }
+    .Description{
+        display: flex;
+        flex-direction: column;
+    }
+    .More{
+        font-size: large;
+        margin-top: 50px;
+    }
+    .screenreader{
+       
+    }
+    .braille{
+        height: 150px;
+        width: 150px;
+    }
+    .textSpeech{
+        height: 150px;
+        width: 200px;
+    
+    }
+    .Courses{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+   
+    }
+    .briefing{
+        font-size: large;
+        text-align: center;
+    }
+    .BriefDescriptions{
+        display: flex;
+        flex-direction: column;
+  
+    }  
+    
+}
+
+@media screen and (min-width:1021px) and (max-width:1500px){
+    .Intro{
+        text-align: center;
+    }
+    .product{
+        height: 700px;
+        width: 950px;
+        border-radius: 40px;
+        margin-top: 50px;
+    }
+    .Description{
+        display: flex;
+        flex-direction: column;
+    }
+    .More{
+        font-size: large;
+        margin-top: 50px;
+    }
+    .screenreader{
+       
+    }
+    .braille{
+        height: 150px;
+        width: 150px;
+    }
+    .textSpeech{
+        height: 150px;
+        width: 200px;
+    
+    }
+    .Courses{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .briefing{
+        font-size: large;
+        text-align: center;
+    }
+    .BriefDescriptions{
+        display: flex;
+        flex-direction: column;
+
+    }  
+    
+}
