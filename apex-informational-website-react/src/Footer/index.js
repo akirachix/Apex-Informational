@@ -15,7 +15,7 @@ const Footer = ()=>{
             <img src="./images/whatsapp.svg" alt="" className="whatsapp"></img>
             </div> 
         </div>
-        <hr></hr>
+        <hr/>
         <h2>Contact Us</h2>
         <div id='info'>
             <div className='location-mail'>
@@ -34,19 +34,17 @@ const Footer = ()=>{
             </div>
             <div id='contacts'>
             <img src="./images/call.svg" alt="" className="call"></img>
-            < br/> 
             <div className='location-info'>
+            <h4>Call us</h4>
             <p>+254721225435</p> 
             <p>+254700200000</p>
-            <p>www.apexsoftware.co.org</p>
             </div>
+            
             </div>
             <div id='contact-input'>
-                <h3>Contact Us</h3>
-                <input type='text' placeholder='Email address'></input>
-                <div className='contact-us'>
-                <p>Send</p>
-                </div>
+                <h3>Reach Us</h3>
+                <input type='text' placeholder='Enter email address'></input>
+                <button>Send</button>
             </div>
 
         </div>
