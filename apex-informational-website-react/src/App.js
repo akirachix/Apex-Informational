@@ -4,9 +4,10 @@ function App() {
   return (
     <div>
    <Team/>
-    </div>
+    <div/>
 
   );
-}
+    }
+
 
 export default App;
