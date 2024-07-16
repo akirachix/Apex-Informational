@@ -1,39 +1,45 @@
+import React, { useState } from 'react';
 import './index.css';
 
+function LandingPage() {
+    const [menuOpen, setMenuOpen] = useState(false);
 
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
 
-function LandingPage (){
-    return(
+    return (
         <div className='landingPage'>
             <div className='background-image'></div>
             <div className='navigation'>
+            <img src='/Images/logo.png' alt='' className='logo'></img>
+            
 
-                <img src ="./Images/logo.png" alt ="" className="logo"></img>
+                <div className={`hamburger-menu ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
+                    <div className="bar"></div>
+                    <div className="bar"></div>
+                    <div className="bar"></div>
+                </div>
 
-
-            <nav>
-                <ul>
-                <li>Home</li>
-                <li>Our Products</li>
-                <li>About Us</li>
-                <li>Our Team</li>
-                <li>Contacts</li>
-                </ul>
-            </nav>
-
+                
+                <nav className={`nav-links ${menuOpen ? 'open' : ''}`}>
+                    <ul>
+                        <li><b>Home</b></li>
+                        <li>Our Products</li>
+                        <li>About Us</li>
+                        <li>Our Team</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
             </div>
 
             <div className='landing-page-texts'>
-                <p>ELEVATE YOUR TEACHING, <br/> ELEVATE THEIR POTENTIAL</p>
-
+                <p>ELEVATE YOUR TEACHING, <br /> ELEVATE THEIR POTENTIAL</p>
             </div>
 
             <div className='explore-button'>
-                <button>Explore</button>
-
+                <button>EXPLORE</button>
             </div>
-
-
         </div>
     )
 }
