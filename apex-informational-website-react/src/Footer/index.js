@@ -42,7 +42,7 @@ const Footer = ()=>{
             
             <div id='contact-input'>
                 <h4>Reach Us</h4>
-                <input type='text' placeholder='Enter email address'></input>
+           <input type='text' placeholder='Enter email address'></input>
                 <button>Send</button>
             </div>
 
