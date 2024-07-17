@@ -1,0 +1,670 @@
+.aboutUs{
+  padding: 40px 0px;
+  overflow: hidden;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 40px;
+    text-align: left;
+  }
+  h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+  p {
+    font-size: 20px;
+    padding: 0px 124px;
+    text-align: left;
+  }
+  
+  img {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 156px;
+    height: 152px;
+  }
+  
+  .values-descrption {
+    margin-top: -30px;
+  }
+  
+  .values-logo {
+    margin-top: -3%;
+    margin-left: 43%;
+  }
+  
+  .core-values {
+    padding: 50px 0px 0px 0px;
+  }
+  
+  .corevalues {
+    margin-left: 50%;
+    margin-top: -3%;
+  }
+  
+  .value-picture {
+    margin-left: -150px;
+    margin-bottom: 100px;
+    margin-top: 6%;
+  }
+  
+  .mission-vision-pictures {
+    margin-top: 50px;
+  }
+  
+  .mission-vision {
+    display: flex;
+    gap: 40px;
+    margin-top: -30px;
+    padding: 50px 0px 0px 0px;
+  }
+  
+  .heading {
+    margin-top: -8px;
+  }
+  
+  .mission {
+    margin-top: 20px;
+  }
+  .aboutUs{
+    margin-top: 4%;
+  }
+  
+  @media screen and (min-width: 280px) and (max-width: 667px) {
+    h1 {
+      font-size: x-large;
+      display: block;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      font-size: large;
+      margin-left: 10%
+    }
+    h3 {
+      font-size: medium;
+    }
+    p {
+      font-size: small;
+      display: flex;
+      padding: 10px 64px;
+    }
+    img {
+      position: relative;
+      display: block;
+      margin: auto;
+      width: 70px;
+      height: 68px;
+    }
+    .core-values {
+      padding: 50px 0px 0px 0px;
+    }
+  
+    .mission-vision {
+      margin-top: -50px;
+      gap: 100px;
+      padding: 25px 0px 0px 0px;
+      flex-direction: column;
+    }
+  
+    .value-picture {
+      margin-left: -50px;
+      margin-bottom: 100px;
+      margin-top: 6%;
+    }
+    .corevalues {
+      margin-top: -10px;
+      margin-left: 10px;
+    }
+  
+    .aboutUs {
+      overflow: hidden;
+      padding: 40px 0px;
+    }
+    .overview {
+      padding: 25px 0px 0px;
+    }
+    .vision {
+      margin-top: -80px;
+    }
+    .core-values {
+      margin-top: -20px;
+    }
+    .values-descrption {
+      margin-top: -90px;
+    }
+    p {
+      margin-top: -10px;
+    }
+  }
+  
+  @media screen and (min-width: 670px) and (max-width: 1020px) {
+    h1 {
+      font-size: x-large;
+      display: block;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      font-size: large;
+      margin: auto;
+    }
+    h3 {
+      font-size: medium;
+    }
+    p {
+      font-size: small;
+      display: flex;
+      padding: 10px 64px;
+    }
+    img {
+      position: relative;
+      display: block;
+      margin: auto;
+      width: 78px;
+      height: 76px;
+    }
+    .core-values {
+      margin-top: -100px;
+    }
+  
+    .mission-vision {
+      margin-top: -100px;
+      gap: 10px;
+      padding: 50px 0px 0px 0px;
+      flex-direction: column;
+    }
+    .vision {
+      margin-top: -40px;
+    }
+    .value-picture {
+      padding-bottom: 20px;
+      margin-left: -50px;
+    }
+    .aboutUs {
+      overflow: hidden;
+      padding: 40px 0px;
+    }
+    .overview {
+      padding: 10px 0px 0px;
+    }
+    .values {
+      margin-top: -30px;
+    }
+    p {
+      margin-top: -10px;
+    }
+    .values-descrption {
+      margin-top: -90px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) and (max-width: 1366px) {
+    .aboutUs {
+      overflow: hidden;
+      padding: 40px 0px;
+    }
+    .overview {
+      padding: 20px 0px 0px;
+    }
+    h1 {
+      font-size: x-large;
+      display: block;
+      margin: auto;
+    }
+    h2 {
+      font-size: large;
+      margin: auto;
+    }
+    h3 {
+      font-size: medium;
+    }
+    .p {
+      margin-top: -10px;
+      font-size: 18px;
+      display: flex;
+      padding: 10px 64px;
+    }
+    img {
+      position: relative;
+      display: block;
+      margin: auto;
+      width: 78px;
+      height: 76px;
+    }
+    .mission-vision {
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+      margin-top: -30px;
+      padding: 50px 0px 0px 0px;
+    }
+    .value-picture {
+      margin-left: -50px;
+    }
+    .vision {
+      margin-top: -40px;
+    }
+    .values-descrption {
+      margin-top: -50px;
+    }
+    .values {
+      margin-top: -30px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) and (max-width: 1366px) {
+    h1 {
+      font-size: 40px;
+      display: block;
+      margin: auto;
+    }
+    h2 {
+      font-size: 35px;
+      margin: auto;
+    }
+    h3 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 25px;
+      display: flex;
+      padding: 0px 64px;
+    }
+    img {
+      position: relative;
+      display: block;
+      margin: auto;
+      width: 78px;
+      height: 76px;
+    }
+    .core-values {
+      margin-top: -100px;
+    }
+  
+    .values-logo {
+      margin-bottom: 40px;
+    }
+  
+    .mission-vision {
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+      margin-top: -30px;
+      padding: 50px 0px 0px 0px;
+    }
+    .vision {
+      margin-top: -40px;
+    }
+    .value-picture {
+      margin-left: -50px;
+      margin-bottom: 100px;
+      margin-top: 6%;
+    }
+    .aboutUs {
+      overflow: hidden;
+      padding: 40px 0px;
+    }
+    .overview {
+      padding: 10px 0px 0px;
+    }
+    .values {
+      margin-top: -30px;
+    }
+    p {
+      margin-top: -10px;
+    }
+    .values-descrption {
+      margin-top: -90px;
+    }
+  }
+  
+  @media screen and (min-width: 820px) and (max-width: 1180px) {
+    h1 {
+      font-size: xx-large;
+      display: block;
+      margin: auto;
+    }
+    h2 {
+      font-size: x-large;
+      margin: auto;
+    }
+    h3 {
+      font-size: large;
+    }
+    p {
+      font-size: medium;
+      padding: 0px 62px;
+      display: flex;
+    }
+  
+    img {
+      position: relative;
+      display: block;
+      margin: auto;
+      width: 78px;
+      height: 76px;
+    }
+    .core-values {
+      margin-top: -100px;
+    }
+  
+    .mission-vision {
+      margin-top: -100px;
+      gap: 10px;
+      padding: 50px 0px 0px 0px;
+      flex-direction: column;
+    }
+    .vision {
+      margin-top: -40px;
+    }
+    .value-picture {
+      margin-left: -50px;
+      padding-bottom: 30px;
+    }
+    .aboutUs {
+      overflow: hidden;
+      padding: 40px 0px;
+    }
+    .overview {
+      padding: 10px 0px 0px;
+    }
+    .values {
+      margin-top: -30px;
+    }
+    p {
+      margin-top: -10px;
+    }
+    .values-descrption {
+      margin-top: -90px;
+    }
+    .values-logo {
+      margin-bottom: -30px;
+    }
+  }
+  
+  @media screen and (min-width: 912px) and (max-width: 1368px) {
+    h1 {
+      font-size: 60px;
+      display: block;
+      margin: auto;
+    }
+    h2 {
+      font-size: 50px;
+      margin: auto;
+    }
+    h3 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 35px;
+      padding: 10px 62px;
+      display: flex;
+    }
+    img {
+      position: relative;
+      display: block;
+      margin: auto;
+      width: 78px;
+      height: 76px;
+    }
+    .mission-vision {
+      margin-top: -100px;
+      gap: 10px;
+      padding: 50px 0px 0px 0px;
+      flex-direction: column;
+    }
+    .vision {
+      margin-top: -40px;
+    }
+    .value-picture {
+      margin-right: -50px;
+    }
+    .aboutUs {
+      overflow: hidden;
+      padding: 40px 0px;
+    }
+    .overview {
+      padding: 10px 0px 0px;
+    }
+    .values {
+      margin-top: -30px;
+    }
+    p {
+      margin-top: -10px;
+    }
+    .values-descrption {
+      margin-top: -90px;
+    }
+    .values-logo {
+      margin-left: -50px;
+    }
+    .corevalues {
+      margin-left: -50px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 999px) {
+    h1 {
+      font-size: xx-large;
+      display: block;
+      margin: auto;
+    }
+    h2 {
+      font-size: x-large;
+      margin: auto;
+    }
+    h3 {
+      font-size: large;
+    }
+    p {
+      font-size: medium;
+      padding: 10px 62px;
+      display: flex;
+    }
+    img {
+      position: relative;
+      display: block;
+      margin: auto;
+      width: 78px;
+      height: 76px;
+    }
+    .core-values {
+      margin-bottom: 20px;
+    }
+  
+    .mission-vision {
+      margin-top: -100px;
+      gap: 10px;
+      padding: 50px 0px 0px 0px;
+      flex-direction: column;
+    }
+    .vision {
+      margin-top: -40px;
+    }
+    .value-picture {
+      padding-bottom: 20px;
+      margin-left: -50px;
+    }
+    .aboutUs {
+      overflow: hidden;
+      padding: 40px 0px;
+    }
+    .overview {
+      padding: 10px 0px 0px;
+    }
+    .values {
+      margin-top: -30px;
+    }
+    p {
+      margin-top: -10px;
+    }
+    .values-descrption {
+      margin-top: -90px;
+    }
+    .values-logo {
+      margin-left: 310px;
+      margin-top: 10px;
+    }
+  }
+  
+  @media screen and (min-width: 1100px) and (max-width: 1280px) {
+    h1 {
+      font-size: 30px;
+      text-align: center;
+    }
+    h2 {
+      font-size: 25px;
+      text-align: center;
+    }
+    h3 {
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    p {
+      font-size: 16px;
+      padding: 10px 124px;
+      text-align: left;
+    }
+  
+    img {
+      position: relative;
+      display: block;
+      margin: auto;
+      width: 100px;
+      height: 80px;
+    }
+  
+    .values-logo {
+      margin-top: -3%;
+      margin-left: 43%;
+    }
+  
+    .core-values {
+      padding: 50px 0px 0px 0px;
+    }
+  
+    .corevalues {
+      margin-left: 8%;
+      margin-top: -80px;
+    }
+  
+    .value-picture {
+      margin-left: -150px;
+      margin-bottom: 100px;
+      margin-top: -25px;
+    }
+  
+    .mission-vision-pictures {
+      margin-top: 50px;
+    }
+  
+    .mission-vision {
+      display: flex;
+      flex-direction: row;
+      margin-top: -30px;
+      padding: 50px 0px 0px 0px;
+    }
+  
+    .heading {
+      margin-top: -8px;
+    }
+  
+    .mission {
+      margin-top: -50px;
+    }
+    .vision {
+      margin-left: -50px;
+    }
+    .values-logo {
+      margin-top: 100px;
+    }
+    .aboutUs{
+      padding: 40px 0px;
+      overflow: hidden;
+    }
+  }
+  
+  @media screen and (min-width: 1000px) and (max-width: 1024px) {
+    .aboutUs{
+      padding: 40px 0px;
+      overflow: hidden;
+    }
+    h1 {
+      font-size: 30px;
+      text-align: center;
+    }
+    h2 {
+      font-size: 25px;
+      text-align: center;
+    }
+    h3 {
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    p {
+      font-size: 16px;
+      padding: 10px 124px;
+      text-align: left;
+    }
+  
+    img {
+      position: relative;
+      display: block;
+      margin: auto;
+      width: 100px;
+      height: 80px;
+    }
+  
+    .values-logo {
+      margin-top: -3%;
+      margin-left: 43%;
+    }
+  
+    .core-values {
+      padding: 50px 0px 0px 0px;
+    }
+  
+    .corevalues {
+      margin-left: 14%;
+      margin-top: -40px;
+    }
+  
+    .value-picture {
+      margin-left: -150px;
+      margin-bottom: 100px;
+      margin-top: 75px;
+    }
+  
+    .mission-vision-pictures {
+      margin-top: 50px;
+    }
+  
+    .mission-vision {
+      display: flex;
+      flex-direction: row;
+      margin-top: -30px;
+      padding: 50px 0px 0px 0px;
+    }
+  
+    .heading {
+      margin-top: -8px;
+    }
+  
+    .mission {
+      margin-top: -50px;
+    }
+    .vision {
+      margin-left: -50px;
+    }
+    .values-logo {
+      margin-top: 50px;
+    }
+  }
+  
