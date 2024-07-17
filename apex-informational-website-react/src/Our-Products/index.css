@@ -29,11 +29,6 @@ h3{
     text-align: left;
     margin-top: 2.5%;
 }
-.product-description p{
-    font-size: 20px;
-    text-align: left;
-}
-
 .courses{
 
     justify-content: space-evenly;
@@ -49,9 +44,10 @@ h3{
 }
 .image-text-to-speech{
     width: 300px;
-    height: 188px; 
+    height: 100px; 
     margin-left: 25%;
-    margin-top: 2.3%;
+    /* margin-top: 2.3%; */
+    margin-bottom: 10%;
 }
 h2{
     text-align: center; 
@@ -78,19 +74,20 @@ h2{
 .assessments{
     margin-top: 80px;
 }
-.courses-description p{
-  width: 80%;
-  font-size: 20px;
-}
 .braille-translation{
     font-size: 30px;
+    font-weight: bolder;
 }
 .screen-reader{
     font-size: 30px;
+    font-weight: bolder;
 }
 .speech-heading{
     font-size: 30px;
     font-weight: bolder;
+}
+.braille{
+    /* height: 120px; */
 }
 
 @media screen and (min-width: 351px) and (max-width: 360px){

@@ -33,13 +33,13 @@ return(
         <div className='courses'>
 
            <div className='courses-description'>
-             <h2 className='screen-reader'>Screen Readers</h2>
+             <div className='screen-reader'>Screen Readers</div>
              <img className="image-screen-reader"  src='Images/screen-readers.png'/>
              <div className="screen">Learn how to access and navigate websites documents and applications using screen readers technology</div>
             </div>
             
             <div className='courses-description'>
-               <h2 className='braille-translation'>Braille Translation</h2>
+               <div className='braille-translation'>Braille Translation</div>
                <div className="braille"><img src='Images/braille-display.jpg'/></div>
                <div className="braille-text">Learn how to convert digital text into braille using braille translation technology.</div>
             </div>
