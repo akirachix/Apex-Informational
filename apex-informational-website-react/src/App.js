@@ -1,17 +1,8 @@
-import OurProducts from "./Our-Products";
-import './App.css';
-import Footer from './Footer';
-import About from './AboutUs';
+import LandingPage from "./LandingPage";
+
 function App() {
   return (
- 
-    
-    <div>
-      <OurProducts/>
-     <About/>
-     <Footer/>
-     
-    </div>
+    <LandingPage/>
   );
 }
 export default App;
